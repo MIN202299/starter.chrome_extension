@@ -1,0 +1,1 @@
+console.log('my first extension on chrome')
