@@ -1,36 +1,33 @@
 {
-    "manifest_version": 3,
-    "name": "Hello Extensions",
-    "description": "Base Level Extension",
-    "version": "1.0",
-    "action": {
-      "default_popup": "hello.html",
-      "default_icon": "hello_extensions.png"
+  "manifest_version": 3,
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "theme": {
+    "images" : {
+      "theme_ntp_background": "images/bg.png"
     },
-    "theme": {
-      "images" : {
-        "theme_frame" : "images/background.png",
-        "theme_ntp_background": "images/background.png"
-        
-      },
-      "colors" : {
-        "toolbar" : [30, 113, 255],
-        "ntp_text" : [20, 40, 0],
-        "ntp_link" : [36, 70, 0],
-        "ntp_section" : [207, 221, 192],
-        "button_background" : [255, 255, 255],
-        "bookmark_text": [255, 255, 255],
-        "toolbar_button_icon": [255, 255, 255],
-        "toolbar_text": [255, 255, 255],
-        "omnibox_text": [255, 255, 255],
-        "omnibox_background": [61, 143, 254]
-        
-      },
-      "tints" : {
-        "buttons" : [0.33, 0.5, 0.47]
-      },
-      "properties" : {
-        "ntp_background_alignment" : "center"
-      }
+    "colors" : {
+      "frame": [61, 143, 254],
+      "toolbar" : [30, 113, 255],
+      "button_background" : [255, 255, 255],
+      "bookmark_text": [255, 255, 255],
+      "toolbar_button_icon": [255, 255, 255],
+      "toolbar_text": [255, 255, 255],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_background": [61, 143, 254],
+      "ntp_background": [255, 255, 255]
+
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "center"
     }
   }
+}
