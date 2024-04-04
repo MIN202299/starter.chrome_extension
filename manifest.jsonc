@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Blue",
+  "description": "Beautiful blue theme",
+  "version": "1.0",
+  "theme": {
+    "images" : {
+      "theme_ntp_background": "images/bg.png"
+    },
+    "colors" : {
+      "frame": [61, 143, 254],
+      "toolbar" : [30, 113, 255],
+      "button_background" : [255, 255, 255],
+      "bookmark_text": [255, 255, 255],
+      "toolbar_button_icon": [255, 255, 255],
+      "toolbar_text": [255, 255, 255],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_background": [61, 143, 254],
+      "ntp_background": [255, 255, 255],
+      "tab_text": [255, 255, 255], // 当前激活的tab字体颜色
+      "tab_background_text": [ 235, 235, 235 ] // 未激活的tab字体颜色
+    },
+    "tints" : {
+      "buttons" : [0.99, 0.97, 0.22]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "center"
+    }
+  }
+}
